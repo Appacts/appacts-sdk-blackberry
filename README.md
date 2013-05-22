@@ -239,64 +239,64 @@ void IAnalytics.Stop()
 
 ######Sample - main.java######
   
-  public class Main extends UiApplication
-  {
-      /**
-       * Entry point for application
-       * @param args Command line arguments (not used)
-       */ 
-      public static void main(String[] args)
+      public class Main extends UiApplication
       {
-          // Create a new instance of the application and make the currently
-          // running thread the application's event dispatch thread.
-          Main theApp = new Main();       
-          theApp.enterEventDispatcher();
-      }
-      
-      /**
-       * Creates a new MyApp object
-       */
-      public Main()
-      {        
-          /*
-           * Appacts
-           * Application is starting lets start the session
+          /**
+           * Entry point for application
+           * @param args Command line arguments (not used)
+           */ 
+          public static void main(String[] args)
+          {
+              // Create a new instance of the application and make the currently
+              // running thread the application's event dispatch thread.
+              Main theApp = new Main();       
+              theApp.enterEventDispatcher();
+          }
+          
+          /**
+           * Creates a new MyApp object
            */
-          AnalyticsSingleton.GetInstance().Start("9baa4776ed8f42ecb7dc94f1e2a8ac87", "http://yourserver.com/api/");
-          
-          // Push a screen onto the UI stack for rendering.
-          pushScreen(new ScreenBasic());
-      }   
-      
-      /*
-       * @see net.rim.device.api.system.Application#deactivate()
-       */
-      public void activate() {
-          
-          /*
-           * Appacts
-           * Application has came back to the foreground, lets start the session
-           */
-          AnalyticsSingleton.GetInstance().Start("9baa4776ed8f42ecb7dc94f1e2a8ac87", "http://yourserver.com/api/");
-          
-          
-          super.activate();
-      }
-      
-      /*
-       * @see net.rim.device.api.system.Application#deactivate()
-       */
-      public void deactivate() {
+          public Main()
+          {        
+              /*
+               * Appacts
+               * Application is starting lets start the session
+               */
+              AnalyticsSingleton.GetInstance().Start("9baa4776ed8f42ecb7dc94f1e2a8ac87", "http://yourserver.com/api/");
+              
+              // Push a screen onto the UI stack for rendering.
+              pushScreen(new ScreenBasic());
+          }   
           
           /*
-           * Appacts
-           * Application has gone in to the background, lets stop the session
+           * @see net.rim.device.api.system.Application#deactivate()
            */
-          AnalyticsSingleton.GetInstance().Stop();
+          public void activate() {
+              
+              /*
+               * Appacts
+               * Application has came back to the foreground, lets start the session
+               */
+              AnalyticsSingleton.GetInstance().Start("9baa4776ed8f42ecb7dc94f1e2a8ac87", "http://yourserver.com/api/");
+              
+              
+              super.activate();
+          }
           
-          super.deactivate();
+          /*
+           * @see net.rim.device.api.system.Application#deactivate()
+           */
+          public void deactivate() {
+              
+              /*
+               * Appacts
+               * Application has gone in to the background, lets stop the session
+               */
+              AnalyticsSingleton.GetInstance().Stop();
+              
+              super.deactivate();
+          }
       }
-  }
   
 Note: Please make sure that .Start & .Stop is always called from main thread, these two methods need to hook in to network coverage event handler.
 
@@ -306,29 +306,29 @@ Every app is different. Your business needs to make a decision about how it want
 
 ######Import######
 
-  import AppActs.Plugin.Models.OptStatusType;
-
+      import AppActs.Plugin.Models.OptStatusType;
+    
 
 ######Methods######
 
-  int GetOptStatus();
-  void SetOptStatus(int optStatusType);
-
+      int GetOptStatus();
+      void SetOptStatus(int optStatusType);
+    
 
 ######Sample - GetOptStatus######
 
-  if(AnalyticsSingleton.GetInstance().GetOptStatus() == OptStatusType.None) {
-       UiApplication.getUiApplication().pushScreen(new ScreenTermsAndConditions());
-       close();
-  } else {
-      if(!AnalyticsSingleton.GetInstance().IsUserInformationSet()) {
-          UiApplication.getUiApplication().pushScreen(new ScreenDemographic());
-          close();
-  } else {
-       UiApplication.getUiApplication().pushScreen(new ScreenDog());
-       close();
-    }
-  }
+      if(AnalyticsSingleton.GetInstance().GetOptStatus() == OptStatusType.None) {
+           UiApplication.getUiApplication().pushScreen(new ScreenTermsAndConditions());
+           close();
+      } else {
+          if(!AnalyticsSingleton.GetInstance().IsUserInformationSet()) {
+              UiApplication.getUiApplication().pushScreen(new ScreenDemographic());
+              close();
+      } else {
+           UiApplication.getUiApplication().pushScreen(new ScreenDog());
+           close();
+        }
+      }
 
 
 ######Sample - SetOptStatus######
@@ -359,24 +359,24 @@ To improve your app you need to know who is using it, how old they are, what the
 
 ######Import######
 
-  import AppActs.Plugin.Models.*;
+    import AppActs.Plugin.Models.*;
 
 
 ######Methods######
 
-  IsUserInformationSet();
-  void SetUserInformation(int age, int sexType) throws ExceptionDatabaseLayer
+     IsUserInformationSet();
+     void SetUserInformation(int age, int sexType) throws ExceptionDatabaseLayer
   
 
 ######Sample - IsUserInformationSet######
-
-  if(!AnalyticsSingleton.GetInstance().IsUserInformationSet()) {
-         UiApplication.getUiApplication().pushScreen(new ScreenDemographic());
+    
+      if(!AnalyticsSingleton.GetInstance().IsUserInformationSet()) {
+             UiApplication.getUiApplication().pushScreen(new ScreenDemographic());
+             close();
+      } else {
+         UiApplication.getUiApplication().pushScreen(new ScreenDog());
          close();
-  } else {
-     UiApplication.getUiApplication().pushScreen(new ScreenDog());
-     close();
-  }
+      }
 
 
 ######Sample - SetUserInformation######
@@ -399,7 +399,7 @@ Note: Our plugin throws exception if it can't save users information. Normally t
 
 ######Import######
 
-  import com.appacts.plugin.Models.ExceptionDescriptive;
+    import com.appacts.plugin.Models.ExceptionDescriptive;
 
 
 ######Methods######
@@ -438,17 +438,17 @@ Note: Our plugin throws exception if it can't save users information. Normally t
 
 
 ######Sample - LogFeedback######
-
-  try {
-            AnalyticsSingleton.GetInstance().LogFeedback(ScreenName, 
-              Integer.parseInt( (String)OcfRating.getChoice(OcfRating.getSelectedIndex())), 
-              edtfFeedback.getText());
-               close();
-      } catch(Exception ex) {
-           AnalyticsSingleton.GetInstance().LogError(ScreenName, "Submit", null, new ExceptionDescriptive(ex));
-           //todo:notify user that there has been an issue
-       }
-       
+    
+      try {
+                AnalyticsSingleton.GetInstance().LogFeedback(ScreenName, 
+                  Integer.parseInt( (String)OcfRating.getChoice(OcfRating.getSelectedIndex())), 
+                  edtfFeedback.getText());
+                   close();
+          } catch(Exception ex) {
+               AnalyticsSingleton.GetInstance().LogError(ScreenName, "Submit", null, new ExceptionDescriptive(ex));
+               //todo:notify user that there has been an issue
+           }
+           
 Note: Our plugin throws exception if it can't save users information. Normally this happens when user’s storage card is not present, it was corrupt, or device is full. As we throw an error you can notify a user that there was an issue or just handle it using in your app as per your business requirements.
 
 
@@ -508,14 +508,14 @@ We have created two methods for two different scenarios:
 
 ######UploadWhileUsingAsync######
 
-  AnalyticsSingleton.GetInstance().Start("9baa4776ed8f42ecb7dc94f1e2a8ac87", "http://yourserver.com/api/", UploadType.WhileUsingAsync)
+    AnalyticsSingleton.GetInstance().Start("9baa4776ed8f42ecb7dc94f1e2a8ac87", "http://yourserver.com/api/", UploadType.WhileUsingAsync)
 
 
 By specifying Upload Type While Using Async during the initial singleton request, the plugin will automatically start uploading data while a user is using the app.
 
 ######UploadManual######
 
-  AnalyticsSingleton.GetInstance().Start("9baa4776ed8f42ecb7dc94f1e2a8ac87", "http://yourserver.com/api/", UploadType.Manual)
+    AnalyticsSingleton.GetInstance().Start("9baa4776ed8f42ecb7dc94f1e2a8ac87", "http://yourserver.com/api/", UploadType.Manual)
 
 By specifying Upload Type Manual during the initial singleton request, the plugin will not upload any data. It will just collect it and you will need to manually trigger either “UploadManual” or “UploadWhileUsingAsync” i.e.
 
