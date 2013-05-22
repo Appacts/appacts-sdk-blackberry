@@ -1,0 +1,59 @@
+<loader version="1.0">
+	<application id="SampleApplicationBasic">
+		<name >
+			SampleApplicationBasic
+		</name>
+		<description >
+			
+		</description>
+		<version >
+			1.0.0
+		</version>
+		<vendor >
+			BlackBerry Developer
+		</vendor>
+		<copyright >
+			Copyright (c) 2013 BlackBerry Developer
+		</copyright>
+		<fileset Java="1.54" _blackberryVersion="[5.0.0)">
+			<directory >
+				5.0.0
+			</directory>
+			<files >
+				SampleApplicationBasic.cod
+
+			</files>
+
+		</fileset>
+		<application id="AppactsPlugin">
+			<name >
+				
+			</name>
+			<description >
+				Appacts Production
+			</description>
+			<version >
+				0.9.990.2929
+			</version>
+			<vendor >
+				Appacts
+			</vendor>
+			<copyright >
+				Copyright (c) 2013 Appacts
+			</copyright>
+			<fileset Java="1.54" _blackberryVersion="[5.0.0)">
+				<directory >
+					5.0.0
+				</directory>
+				<files >
+					AppactsPlugin.cod
+
+				</files>
+
+			</fileset>
+
+		</application>
+
+	</application>
+
+</loader>

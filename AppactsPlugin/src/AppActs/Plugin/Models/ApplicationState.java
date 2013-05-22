@@ -1,0 +1,21 @@
+/*
+ * ApplicationState.java
+ *
+ * © AppActs, 2012
+ * Confidential and proprietary.
+ */
+
+package AppActs.Plugin.Models;
+
+import java.util.Date;
+
+public final class ApplicationState {
+    public final int State;
+    public final Date DateCreated;
+    
+    public ApplicationState(int applicationStateType, Date dateCreated) {
+        this.State = applicationStateType;
+        this.DateCreated = dateCreated;
+    }
+    
+}

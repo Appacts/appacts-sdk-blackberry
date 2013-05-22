@@ -1,0 +1,35 @@
+/*
+ * SystemError.java
+ *
+ * © AppActs, 2012
+ * Confidential and proprietary.
+ */
+
+package AppActs.Plugin.Models;
+
+import java.util.Date;
+
+import javax.bluetooth.UUID;
+
+public final class SystemError extends Item {
+    
+    public final ExceptionDescriptive Error;
+    public final AnalyticsSystem System;
+    
+    public SystemError(UUID applicationId, 
+        ExceptionDescriptive ex, AnalyticsSystem system, String version) {    
+        super(applicationId, null, version);
+        
+        this.Error = ex;
+        this.System = system;
+    }
+    
+    public SystemError(int id, UUID applicationId, ExceptionDescriptive ex, 
+        AnalyticsSystem system, Date dateCreated, String version) {
+        super(id, applicationId, dateCreated, null, version);
+        
+        this.Error = ex;
+        this.System = system;
+    }
+    
+} 
