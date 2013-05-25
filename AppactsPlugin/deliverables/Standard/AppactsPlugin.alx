@@ -4,16 +4,16 @@
 			
 		</name>
 		<description >
-			Appacts Production
+			Appacts Mobile Analytics Plugin
 		</description>
 		<version >
-			0.9.990.2929
+			1.1.0.2322
 		</version>
 		<vendor >
-			Appacts
+			Appacts Limited
 		</vendor>
 		<copyright >
-			Copyright (c) 2013 Appacts
+			Copyright (c) 2013 Appacts Limited
 		</copyright>
 		<fileset Java="1.54" _blackberryVersion="[5.0.0)">
 			<directory >

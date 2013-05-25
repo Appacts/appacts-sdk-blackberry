@@ -1,9 +1,3 @@
-/*
- * IAnalytics.java
- *
- * © Appacts, 2012
- * Confidential and proprietary.
- */
 
 package AppActs.Plugin.Interfaces;
 
