@@ -758,3 +758,254 @@
 00:59:56,588 TRACE [d] ****** Get resource for SampleApplicationBasic
 01:00:05,324 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
 01:00:05,337 DEBUG [C] Property change listener is disabled.
+22:59:03,482 TRACE [R] ContextManager starting, bundle version: 1.5.0.201112201607
+22:59:03,987 DEBUG [C] Property change listener is enabled.
+22:59:04,145 TRACE [R] ContextManager startingneed update: true
+22:59:04,187 DEBUG [T] Starting Search for CPs
+22:59:04,213 DEBUG [T] CP named BlackBerry Java SDK version 7.0.0 was found at C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components
+22:59:04,218 DEBUG [T] CP named BlackBerry Java SDK version 5.0.0 was found at C:\Eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.36\components
+22:59:04,412 DEBUG [B] qualifier: 0
+22:59:04,481 DEBUG [K] VM: *ADDED* [1369179411347$C:\Program Files (x86)\Java\jdk1.6.0_22]
+22:59:04,482 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.0.0$C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components]
+22:59:04,588 DEBUG [K] VM: *ADDED* [BlackBerry JRE 5.0.0$C:\Eclipse\plugins\net.rim.ejde.componentpack5.0.0_5.0.0.36\components]
+22:59:04,590 TRACE [V] Attempting to create VM with name - BlackBerry JRE 7.0.0
+22:59:04,604 TRACE [V] Attempting to create VM with name - BlackBerry JRE 5.0.0
+22:59:04,731 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+22:59:15,521 TRACE [B] Entering ResourcesBuilder build();kind=9
+22:59:15,564 TRACE [B] Leaving ResourcesBuilder build()
+22:59:15,613 TRACE [A] Entering PreprocessingBuilder build();kind=9
+22:59:15,646 TRACE [A] Leaving PreprocessingBuilder build()
+22:59:15,719 TRACE [R] loading C:\Users\Zan Kavtaskin\Documents\GitHub\appacts-sdk-blackberry\AppactsPlugin\BlackBerry_App_Descriptor.xml
+22:59:16,423 TRACE [R] finished loading C:\Users\Zan Kavtaskin\Documents\GitHub\appacts-sdk-blackberry\AppactsPlugin\BlackBerry_App_Descriptor.xml
+22:59:16,427 TRACE [B] Entering ResourcesBuilder build();kind=9
+22:59:16,429 TRACE [B] Leaving ResourcesBuilder build()
+22:59:16,430 TRACE [A] Entering PreprocessingBuilder build();kind=9
+22:59:16,434 TRACE [A] Leaving PreprocessingBuilder build()
+22:59:16,444 TRACE [R] loading C:\Users\Zan Kavtaskin\Documents\GitHub\appacts-sdk-blackberry\SampleApplication\BlackBerry_App_Descriptor.xml
+22:59:16,455 TRACE [R] finished loading C:\Users\Zan Kavtaskin\Documents\GitHub\appacts-sdk-blackberry\SampleApplication\BlackBerry_App_Descriptor.xml
+22:59:16,456 TRACE [A] Entering PreprocessingBuilder build();kind=9
+22:59:16,461 TRACE [A] Leaving PreprocessingBuilder build()
+22:59:16,461 TRACE [B] Entering ResourcesBuilder build();kind=9
+22:59:16,463 TRACE [B] Leaving ResourcesBuilder build()
+22:59:16,472 TRACE [R] loading C:\Users\Zan Kavtaskin\Documents\GitHub\appacts-sdk-blackberry\SampleApplicationBasic\BlackBerry_App_Descriptor.xml
+22:59:16,479 TRACE [R] finished loading C:\Users\Zan Kavtaskin\Documents\GitHub\appacts-sdk-blackberry\SampleApplicationBasic\BlackBerry_App_Descriptor.xml
+22:59:20,310 TRACE [B] Refreshing the resource section for AppactsPlugin
+22:59:20,310 TRACE [d] ****** Get resource for AppactsPlugin
+22:59:46,902 TRACE [R] setBBProperties(); AppactsPlugin; true
+22:59:46,905 TRACE [R] Writing C:\Users\Zan Kavtaskin\Documents\GitHub\appacts-sdk-blackberry\AppactsPlugin\BlackBerry_App_Descriptor.xml
+22:59:46,954 TRACE [R] Finish writing C:\Users\Zan Kavtaskin\Documents\GitHub\appacts-sdk-blackberry\AppactsPlugin\BlackBerry_App_Descriptor.xml
+22:59:46,964 TRACE [R] loading C:\Users\Zan Kavtaskin\Documents\GitHub\appacts-sdk-blackberry\AppactsPlugin\BlackBerry_App_Descriptor.xml
+22:59:46,977 TRACE [R] finished loading C:\Users\Zan Kavtaskin\Documents\GitHub\appacts-sdk-blackberry\AppactsPlugin\BlackBerry_App_Descriptor.xml
+22:59:46,979 DEBUG [C] Validating project AppactsPlugin
+22:59:47,224 TRACE [d] ****** Get resource for AppactsPlugin
+22:59:47,243 DEBUG [C] Validating project SampleApplicationBasic
+22:59:47,281 TRACE [d] ****** Get resource for SampleApplicationBasic
+22:59:47,283 DEBUG [C] Validating project SampleApplication
+22:59:47,318 TRACE [d] ****** Get resource for SampleApplication
+22:59:47,485 TRACE [B] Entering ResourcesBuilder build();kind=9
+22:59:47,493 TRACE [B] Leaving ResourcesBuilder build()
+22:59:47,495 TRACE [A] Entering PreprocessingBuilder build();kind=9
+22:59:47,507 TRACE [A] Leaving PreprocessingBuilder build()
+23:00:12,101 TRACE [B] Entering ResourcesBuilder build();kind=9
+23:00:12,102 TRACE [B] Leaving ResourcesBuilder build()
+23:00:12,103 TRACE [A] Entering PreprocessingBuilder build();kind=9
+23:00:12,125 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Device/DeviceInformation.java
+23:00:12,348 TRACE [A] File DeviceInformation.java is marked as need to be built by java compiler.
+23:00:12,354 TRACE [A] Leaving PreprocessingBuilder build()
+23:00:12,377 TRACE [A] Project AppactsPlugin is marked as need RAPC.
+23:00:12,387 DEBUG [R] RIA Initialization is started for C:/Eclipse/plugins/net.rim.ejde.componentpack5.0.0_5.0.0.36/components.....
+23:00:12,589 DEBUG [R] RIA Initialization finished in : 0 ms
+23:00:12,590 DEBUG [V] SigningKey cache is populated for vm: BlackBerry JRE 5.0.0
+23:00:17,994 TRACE [A] Project AppactsPlugin is marked as need RAPC.
+23:00:54,236 TRACE [B] Entering ResourcesBuilder build();kind=9
+23:00:54,237 TRACE [B] Leaving ResourcesBuilder build()
+23:00:54,238 TRACE [A] Entering PreprocessingBuilder build();kind=9
+23:00:54,247 TRACE [A] Leaving PreprocessingBuilder build()
+23:00:55,742 TRACE [B] Entering ResourcesBuilder build();kind=9
+23:00:55,743 TRACE [B] Leaving ResourcesBuilder build()
+23:00:55,743 TRACE [A] Entering PreprocessingBuilder build();kind=9
+23:00:55,745 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Analytics.java
+23:00:55,747 TRACE [A] File Analytics.java is marked as need to be built by java compiler.
+23:00:55,753 TRACE [A] Leaving PreprocessingBuilder build()
+23:00:55,757 TRACE [A] Project AppactsPlugin is marked as need RAPC.
+23:01:09,074 TRACE [B] Entering ResourcesBuilder build();kind=9
+23:01:09,075 TRACE [B] Leaving ResourcesBuilder build()
+23:01:09,075 TRACE [A] Entering PreprocessingBuilder build();kind=9
+23:01:09,084 TRACE [A] Leaving PreprocessingBuilder build()
+23:04:17,606 TRACE [B] Entering ResourcesBuilder build();kind=9
+23:04:17,607 TRACE [B] Leaving ResourcesBuilder build()
+23:04:17,608 TRACE [A] Entering PreprocessingBuilder build();kind=9
+23:04:17,610 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Handlers/Utils.java
+23:04:17,611 TRACE [A] File Utils.java is marked as need to be built by java compiler.
+23:04:17,618 TRACE [A] Leaving PreprocessingBuilder build()
+23:04:17,621 TRACE [A] Project AppactsPlugin is marked as need RAPC.
+23:04:44,670 TRACE [B] Entering ResourcesBuilder build();kind=9
+23:04:44,671 TRACE [B] Leaving ResourcesBuilder build()
+23:04:44,672 TRACE [A] Entering PreprocessingBuilder build();kind=9
+23:04:44,679 TRACE [A] Leaving PreprocessingBuilder build()
+23:07:01,726 TRACE [B] Entering ResourcesBuilder build();kind=9
+23:07:01,727 TRACE [B] Leaving ResourcesBuilder build()
+23:07:01,727 TRACE [A] Entering PreprocessingBuilder build();kind=9
+23:07:01,729 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/ExceptionDescriptive.java
+23:07:01,731 TRACE [A] File ExceptionDescriptive.java is marked as need to be built by java compiler.
+23:07:01,736 TRACE [A] Leaving PreprocessingBuilder build()
+23:07:01,739 TRACE [A] Project AppactsPlugin is marked as need RAPC.
+23:07:04,819 TRACE [B] Entering ResourcesBuilder build();kind=9
+23:07:04,820 TRACE [B] Leaving ResourcesBuilder build()
+23:07:04,820 TRACE [A] Entering PreprocessingBuilder build();kind=9
+23:07:04,827 TRACE [A] Leaving PreprocessingBuilder build()
+23:08:21,958 TRACE [d] ****** Get resource for SampleApplicationBasic
+23:08:21,960 DEBUG [C] Validating project AppactsPlugin
+23:08:21,990 TRACE [d] ****** Get resource for AppactsPlugin
+23:08:21,992 DEBUG [C] Validating project SampleApplicationBasic
+23:08:22,025 TRACE [d] ****** Get resource for SampleApplicationBasic
+23:08:22,027 DEBUG [C] Validating project SampleApplication
+23:08:22,057 TRACE [d] ****** Get resource for SampleApplication
+23:08:22,237 TRACE [B] Entering ResourcesBuilder build();kind=6
+23:08:22,241 TRACE [B] Leaving ResourcesBuilder build()
+23:08:22,241 TRACE [A] Entering PreprocessingBuilder build();kind=6
+23:08:22,242 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/WebServiceResponseCodeType.java
+23:08:22,248 TRACE [A] File WebServiceResponseCodeType.java is marked as need to be built by java compiler.
+23:08:22,249 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/User.java
+23:08:22,251 TRACE [A] File User.java is marked as need to be built by java compiler.
+23:08:22,251 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/UploadType.java
+23:08:22,252 TRACE [A] File UploadType.java is marked as need to be built by java compiler.
+23:08:22,253 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/SystemError.java
+23:08:22,254 TRACE [A] File SystemError.java is marked as need to be built by java compiler.
+23:08:22,255 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/StatusType.java
+23:08:22,256 TRACE [A] File StatusType.java is marked as need to be built by java compiler.
+23:08:22,257 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/SexType.java
+23:08:22,258 TRACE [A] File SexType.java is marked as need to be built by java compiler.
+23:08:22,258 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/Session.java
+23:08:22,259 TRACE [A] File Session.java is marked as need to be built by java compiler.
+23:08:22,260 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/ScreenResolution.java
+23:08:22,262 TRACE [A] File ScreenResolution.java is marked as need to be built by java compiler.
+23:08:22,263 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/RatingType.java
+23:08:22,265 TRACE [A] File RatingType.java is marked as need to be built by java compiler.
+23:08:22,266 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/QueryStringKeyType.java
+23:08:22,267 TRACE [A] File QueryStringKeyType.java is marked as need to be built by java compiler.
+23:08:22,268 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/PluginMeta.java
+23:08:22,269 TRACE [A] File PluginMeta.java is marked as need to be built by java compiler.
+23:08:22,270 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/OptStatusType.java
+23:08:22,272 TRACE [A] File OptStatusType.java is marked as need to be built by java compiler.
+23:08:22,273 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/KeyValuePair.java
+23:08:22,275 TRACE [A] File KeyValuePair.java is marked as need to be built by java compiler.
+23:08:22,276 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/ItemWithScreen.java
+23:08:22,278 TRACE [A] File ItemWithScreen.java is marked as need to be built by java compiler.
+23:08:22,278 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/Item.java
+23:08:22,280 TRACE [A] File Item.java is marked as need to be built by java compiler.
+23:08:22,281 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/FeedbackItem.java
+23:08:22,283 TRACE [A] File FeedbackItem.java is marked as need to be built by java compiler.
+23:08:22,283 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/ExceptionWebServiceLayer.java
+23:08:22,285 TRACE [A] File ExceptionWebServiceLayer.java is marked as need to be built by java compiler.
+23:08:22,286 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/ExceptionDescriptive.java
+23:08:22,287 TRACE [A] File ExceptionDescriptive.java is marked as need to be built by java compiler.
+23:08:22,288 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/ExceptionDatabaseLayer.java
+23:08:22,290 TRACE [A] File ExceptionDatabaseLayer.java is marked as need to be built by java compiler.
+23:08:22,290 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/EventType.java
+23:08:22,292 TRACE [A] File EventType.java is marked as need to be built by java compiler.
+23:08:22,292 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/EventItem.java
+23:08:22,293 TRACE [A] File EventItem.java is marked as need to be built by java compiler.
+23:08:22,294 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/ErrorItem.java
+23:08:22,296 TRACE [A] File ErrorItem.java is marked as need to be built by java compiler.
+23:08:22,296 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/DeviceType.java
+23:08:22,298 TRACE [A] File DeviceType.java is marked as need to be built by java compiler.
+23:08:22,298 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/DeviceLocation.java
+23:08:22,300 TRACE [A] File DeviceLocation.java is marked as need to be built by java compiler.
+23:08:22,301 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/DeviceGeneralInformation.java
+23:08:22,303 TRACE [A] File DeviceGeneralInformation.java is marked as need to be built by java compiler.
+23:08:22,304 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/DeviceDynamicInformation.java
+23:08:22,305 TRACE [A] File DeviceDynamicInformation.java is marked as need to be built by java compiler.
+23:08:22,306 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/Crash.java
+23:08:22,308 TRACE [A] File Crash.java is marked as need to be built by java compiler.
+23:08:22,308 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/ApplicationStateType.java
+23:08:22,310 TRACE [A] File ApplicationStateType.java is marked as need to be built by java compiler.
+23:08:22,311 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/ApplicationState.java
+23:08:22,312 TRACE [A] File ApplicationState.java is marked as need to be built by java compiler.
+23:08:22,312 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/ApplicationMeta.java
+23:08:22,314 TRACE [A] File ApplicationMeta.java is marked as need to be built by java compiler.
+23:08:22,314 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Models/AnalyticsSystem.java
+23:08:22,315 TRACE [A] File AnalyticsSystem.java is marked as need to be built by java compiler.
+23:08:22,315 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Interfaces/ISettings.java
+23:08:22,318 TRACE [A] File ISettings.java is marked as need to be built by java compiler.
+23:08:22,319 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Interfaces/IPlatform.java
+23:08:22,320 TRACE [A] File IPlatform.java is marked as need to be built by java compiler.
+23:08:22,321 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Interfaces/IDeviceInformation.java
+23:08:22,322 TRACE [A] File IDeviceInformation.java is marked as need to be built by java compiler.
+23:08:22,322 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Interfaces/IDeviceDynamicInformation.java
+23:08:22,324 TRACE [A] File IDeviceDynamicInformation.java is marked as need to be built by java compiler.
+23:08:22,324 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Interfaces/IAnalytics.java
+23:08:22,326 TRACE [A] File IAnalytics.java is marked as need to be built by java compiler.
+23:08:22,327 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Handlers/WebServices.java
+23:08:22,330 TRACE [A] File WebServices.java is marked as need to be built by java compiler.
+23:08:22,331 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Handlers/Utils.java
+23:08:22,333 TRACE [A] File Utils.java is marked as need to be built by java compiler.
+23:08:22,333 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Handlers/UrlUtf8Encoder.java
+23:08:22,335 TRACE [A] File UrlUtf8Encoder.java is marked as need to be built by java compiler.
+23:08:22,335 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Handlers/HttpConnectionManager.java
+23:08:22,336 TRACE [A] File HttpConnectionManager.java is marked as need to be built by java compiler.
+23:08:22,337 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Device/Platform.java
+23:08:22,340 TRACE [A] File Platform.java is marked as need to be built by java compiler.
+23:08:22,341 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Device/Interfaces/IPlatform.java
+23:08:22,344 TRACE [A] File IPlatform.java is marked as need to be built by java compiler.
+23:08:22,346 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Device/Interfaces/IDeviceInformation.java
+23:08:22,347 TRACE [A] File IDeviceInformation.java is marked as need to be built by java compiler.
+23:08:22,348 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Device/Interfaces/IDeviceDynamicInformation.java
+23:08:22,349 TRACE [A] File IDeviceDynamicInformation.java is marked as need to be built by java compiler.
+23:08:22,350 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Device/DeviceInformation.java
+23:08:22,351 TRACE [A] File DeviceInformation.java is marked as need to be built by java compiler.
+23:08:22,352 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Device/DeviceDynamicInformation.java
+23:08:22,353 TRACE [A] File DeviceDynamicInformation.java is marked as need to be built by java compiler.
+23:08:22,353 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Data/UploadWS.java
+23:08:22,357 TRACE [A] File UploadWS.java is marked as need to be built by java compiler.
+23:08:22,358 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Data/SettingsDB.java
+23:08:22,360 TRACE [A] File SettingsDB.java is marked as need to be built by java compiler.
+23:08:22,361 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Data/LoggerDB.java
+23:08:22,362 TRACE [A] File LoggerDB.java is marked as need to be built by java compiler.
+23:08:22,363 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Data/Interfaces/IUpload.java
+23:08:22,366 TRACE [A] File IUpload.java is marked as need to be built by java compiler.
+23:08:22,367 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Data/Interfaces/ISettings.java
+23:08:22,368 TRACE [A] File ISettings.java is marked as need to be built by java compiler.
+23:08:22,369 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Data/Interfaces/ILogger.java
+23:08:22,370 TRACE [A] File ILogger.java is marked as need to be built by java compiler.
+23:08:22,372 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Data/Interfaces/IData.java
+23:08:22,373 TRACE [A] File IData.java is marked as need to be built by java compiler.
+23:08:22,373 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Data/DataDB.java
+23:08:22,375 TRACE [A] File DataDB.java is marked as need to be built by java compiler.
+23:08:22,376 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/AnalyticsSingleton.java
+23:08:22,377 TRACE [A] File AnalyticsSingleton.java is marked as need to be built by java compiler.
+23:08:22,378 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/AppactsPlugin/src/AppActs/Plugin/Analytics.java
+23:08:22,379 TRACE [A] File Analytics.java is marked as need to be built by java compiler.
+23:08:22,384 TRACE [A] Leaving PreprocessingBuilder build()
+23:08:22,406 TRACE [A] Project AppactsPlugin is marked as need RAPC.
+23:08:23,601 TRACE [B] Entering ResourcesBuilder build();kind=6
+23:08:23,602 TRACE [B] Leaving ResourcesBuilder build()
+23:08:23,602 TRACE [A] Entering PreprocessingBuilder build();kind=6
+23:08:23,603 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/SampleApplication/src/SampleApplication/ScreenTermsAndConditions.java
+23:08:23,607 TRACE [A] File ScreenTermsAndConditions.java is marked as need to be built by java compiler.
+23:08:23,608 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/SampleApplication/src/SampleApplication/ScreenSplash.java
+23:08:23,610 TRACE [A] File ScreenSplash.java is marked as need to be built by java compiler.
+23:08:23,611 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/SampleApplication/src/SampleApplication/ScreenFeedback.java
+23:08:23,612 TRACE [A] File ScreenFeedback.java is marked as need to be built by java compiler.
+23:08:23,613 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/SampleApplication/src/SampleApplication/ScreenDog.java
+23:08:23,615 TRACE [A] File ScreenDog.java is marked as need to be built by java compiler.
+23:08:23,616 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/SampleApplication/src/SampleApplication/ScreenDemographic.java
+23:08:23,618 TRACE [A] File ScreenDemographic.java is marked as need to be built by java compiler.
+23:08:23,618 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/SampleApplication/src/SampleApplication/ScreenCat.java
+23:08:23,620 TRACE [A] File ScreenCat.java is marked as need to be built by java compiler.
+23:08:23,621 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/SampleApplication/src/SampleApplication/ScreenBase.java
+23:08:23,621 TRACE [A] File ScreenBase.java is marked as need to be built by java compiler.
+23:08:23,622 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/SampleApplication/src/SampleApplication/Main.java
+23:08:23,624 TRACE [A] File Main.java is marked as need to be built by java compiler.
+23:08:23,626 TRACE [A] Leaving PreprocessingBuilder build()
+23:08:23,631 TRACE [A] Project SampleApplication is marked as need RAPC.
+23:08:24,662 TRACE [A] Entering PreprocessingBuilder build();kind=6
+23:08:24,663 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/SampleApplicationBasic/src/SampleApplicationBasic/ScreenBasic.java
+23:08:24,671 TRACE [A] File ScreenBasic.java is marked as need to be built by java compiler.
+23:08:24,673 TRACE [A] Preprocessing file : C:/Users/Zan Kavtaskin/Documents/GitHub/appacts-sdk-blackberry/SampleApplicationBasic/src/SampleApplicationBasic/Main.java
+23:08:24,674 TRACE [A] File Main.java is marked as need to be built by java compiler.
+23:08:24,676 TRACE [A] Leaving PreprocessingBuilder build()
+23:08:24,676 TRACE [B] Entering ResourcesBuilder build();kind=6
+23:08:24,677 TRACE [B] Leaving ResourcesBuilder build()
+23:08:24,696 TRACE [A] Project SampleApplicationBasic is marked as need RAPC.
+23:08:25,088 TRACE [d] ****** Get resource for SampleApplicationBasic

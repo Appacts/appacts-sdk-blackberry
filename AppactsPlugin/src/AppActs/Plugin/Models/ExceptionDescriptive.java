@@ -1,9 +1,3 @@
-/*
- * ExceptionDescriptive.java
- *
- * © AppActs, 2012
- * Confidential and proprietary.
- */
 
 package AppActs.Plugin.Models;
 
@@ -44,33 +38,4 @@ public class ExceptionDescriptive extends Exception {
         this.Source = source;
         this.Data = data;
     }
-    
-    /*
-    this is supported only in latest versions
-    public ExceptionDescriptive(String message, StackTraceElement[] stackTrace) {    
-        super(message);
-        
-      
-        for(int i = 0; i < stackTrace.length; i++) {
-            this.StackTrace += stackTrace[i].toString();
-            this.Source +=  
-            "Exception thrown from " + stackTrace[i].getMethodName()  
-            + " in class " +  stackTrace[i].getClassName() + " [on line number "  
-            +  stackTrace[i].getLineNumber() + " of file " + stackTrace[i].getFileName() + "]";
-        } 
-    }
-        public ExceptionDescriptive(String message, StackTraceElement[] stackTrace, String data) {    
-        super(message);
-        
-        this.Data = data;
-     
-        for(int i = 0; i < stackTrace.length; i++) {
-            this.StackTrace += stackTrace[i].toString();
-            this.Source +=  
-            "Exception thrown from " + stackTrace[i].getMethodName()  
-            + " in class " +  stackTrace[i].getClassName() + " [on line number "  
-            +  stackTrace[i].getLineNumber() + " of file " + stackTrace[i].getFileName() + "]";
-        } 
-    } */
-    
 } 

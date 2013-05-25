@@ -1,4 +1,2 @@
 INDEX VERSION 1.126+C:\Users\Zan Kavtaskin\Documents\GitHub\appacts-sdk-blackberry\.metadata\.plugins\org.eclipse.jdt.core
-1306024270.index
-1489977033.index
-2540158124.index
+1143720589.index

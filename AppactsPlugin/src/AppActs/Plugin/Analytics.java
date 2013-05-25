@@ -26,7 +26,7 @@ public final class Analytics implements IAnalytics {
     
     private String connectionString = "appacts/appacts.db";
     private String baseUrl = "";
-    private boolean debugMode = true;
+    private boolean debugMode = false;
     
     private UUID applicationId;
     private String applicationVersion;

@@ -1,9 +1,3 @@
-/*
- * Utils.java
- *
- * © AppActs, 2012
- * Confidential and proprietary.
- */
 
 package AppActs.Plugin.Handlers;
 
@@ -20,26 +14,10 @@ import net.rim.device.api.system.DeviceInfo;
 public class Utils {
   
     public static Date GetDateTimeNow() {
-    	
-    	//legacy: we have used GMT time from the device, in the past this would have made sense,
-    	//if we wanted to track to find common time, however what we want to do is find releative time to the device so we know
-    	//when they used it in their time zone, we dont care in what GMT it happend. Therefore we now going to return actual time of the device
-        //Calendar calendar = Calendar.getInstance(TimeZone.getTimeZone("GMT"));
-        //calendar.setTime(new Date(System.currentTimeMillis()));
-        //return calendar.getTime();
-    	//TODO: remove above code after 2 versions. ver: 0.9.300.100
-    	
     	return new Date(System.currentTimeMillis());
     }
     
     public static String DateTimeFormat(Date date) {
-    	
-    	//legacy: as above GMT is no longer relevant
-        //DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
-        //Calendar calendar = Calendar.getInstance(TimeZone.getTimeZone("GMT"));
-        //calendar.setTime(date);
-    	//TODO: remove above code after 2 versions. ver: 0.9.300.100
-    	
         DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(date);

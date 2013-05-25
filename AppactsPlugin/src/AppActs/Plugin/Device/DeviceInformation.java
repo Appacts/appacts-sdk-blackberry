@@ -18,7 +18,7 @@ import net.rim.device.api.system.MemoryStats;
 
 public final class DeviceInformation implements IDeviceInformation {
         
-    private final static String pluginVersion = "0.9.990.2929";
+    private final static String pluginVersion = "1.1.0.2322";
         
     public DeviceInformation() {    
     
