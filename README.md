@@ -1,6 +1,12 @@
 Integration Examples
 ===============
 
+If you need help referencing / deploying the binary files check out our Wiki:
+
+https://github.com/Appacts/appacts-sdk-blackberry/wiki/Referencing-Blackberry-Java-SDK
+
+https://github.com/Appacts/appacts-sdk-blackberry/wiki/Simulator-&-Deployment
+
 ##Basic Integration##
 
 
